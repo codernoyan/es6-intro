@@ -35,4 +35,20 @@ console.log(another);
 const nayoks = ['sakib', 'bappi', 'raj'];
 
 const [king, lost, notun] = nayoks;
-console.log(notun)
+console.log(notun);
+
+const getNames = () => {
+    return ['Alim', 'Halim'];
+}
+
+const [baba, chacha] = getNames();
+
+console.log(chacha, baba);
+
+const getNamesFromObject = () => {
+    return { hisName: 'abul', friend: 'babul' };
+}
+
+const { hisName, friend } = getNamesFromObject();
+
+console.log(friend, hisName)
