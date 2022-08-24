@@ -28,4 +28,11 @@ const { address } = fish;
 console.log(address);
 
 // array destructuring
-const [] = [45, 98];
+// const [first, another, names] = [45, 98, 'hello guri'];
+const [first, another] = [45, 98, 78, 66];
+console.log(another);
+
+const nayoks = ['sakib', 'bappi', 'raj'];
+
+const [king, lost, notun] = nayoks;
+console.log(notun)
